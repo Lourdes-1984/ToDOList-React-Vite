@@ -31,6 +31,7 @@ const TaskList = (props) => {
           <button className="button blue" onClick={onClickRemoveItem}>
             Delete all done
           </button>
+          <button className="button blue">Edit</button>
         </p>
       ) : null}
     </div>
